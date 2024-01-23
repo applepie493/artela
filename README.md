@@ -15,6 +15,7 @@ echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
 ```
 kubectl: OK
 ```
+インストールする環境が整ったので以下を実行する。
 ```
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 kubectl version --client
