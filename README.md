@@ -38,4 +38,18 @@ mkdir -p ~/bin
 curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to ~/bin
 export PATH="$PATH:$HOME/bin"
 ```
+## 2.ローカル環境の構築
+```
+git clone https://github.com/astriaorg/dev-cluster.git
+just create-cluster
+just deploy-ingress-controller
+just wait-for-ingress-controller
+just deploy-astria-local
+```
+## 3.最新のasteriaのダウンロード
+```
+curl -L https://github.com/astriaorg/astria/releases/download/cli-v0.3.1/astria-cli-x86_64-unknown-linux-gnu.tar.gz > astria-cli.tar.gz
+tar -xvzf astria-cli.tar.gz
+```
+
 
