@@ -60,5 +60,14 @@ tar -xvzf astria-cli.tar.gz
 ```
 ./astria-cli rollup config create --rollup.name <name>
 ```
+## 5.新しいウォレットの作成
+```
+cast w new
+```
+```
+export ROLLUP_FAUCET_PRIV_KEY=<GENESIS_PRIVATE_KEY>
+export ROLLUP_GENESIS_ACCOUNTS=<GENESIS_ADDRESS>:100000000000000000000
+```
+
 
 
