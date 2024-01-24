@@ -1,11 +1,11 @@
 # asteria
 
 ## 1.環境のインストール
-### 1.Docker(linux ver)
+### 1)Docker(linux ver)
 ```
 sudo apt install docker.io
 ```
-### 2.kubectl
+### 2)kubectl
 ```
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
