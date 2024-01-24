@@ -68,9 +68,15 @@ cast w new
 export ROLLUP_FAUCET_PRIV_KEY=<GENESIS_PRIVATE_KEY>
 export ROLLUP_GENESIS_ACCOUNTS=<GENESIS_ADDRESS>:100000000000000000000
 ```
-## 6.シーケンサーアカウント作成
+## 6.シーケンサーアカウント作成とfaucet
 ```
 ./astria-cli sequencer account create
+```
+新しいシーケンサーアカウントが作成できたら下記からfaucet。
+<https://faucet.sequencer.dusk-3.devnet.astria.org/>
+残高確認は
+```
+./astria-cli sequencer account balance $SEQUENCER_ACCOUNT_ADDRESS
 ```
 
 
