@@ -51,5 +51,9 @@ just deploy-astria-local
 curl -L https://github.com/astriaorg/astria/releases/download/cli-v0.3.1/astria-cli-x86_64-unknown-linux-gnu.tar.gz > astria-cli.tar.gz
 tar -xvzf astria-cli.tar.gz
 ```
+## 4.独自のロールアップの作成
+```
+./astria-cli rollup config create --rollup.name <name>
+```
 
 
