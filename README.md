@@ -68,6 +68,11 @@ cast w new
 export ROLLUP_FAUCET_PRIV_KEY=<GENESIS_PRIVATE_KEY>
 export ROLLUP_GENESIS_ACCOUNTS=<GENESIS_ADDRESS>:100000000000000000000
 ```
+## 6.シーケンサーアカウント作成
+```
+./astria-cli sequencer account create
+```
+
 
 
 
