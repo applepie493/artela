@@ -78,7 +78,13 @@ export ROLLUP_GENESIS_ACCOUNTS=<GENESIS_ADDRESS>:100000000000000000000
 ```
 ./astria-cli sequencer account balance $SEQUENCER_ACCOUNT_ADDRESS
 ```
-
+## 7.ロールアップの作成
+```
+./astria-cli rollup deployment create \
+  --config $ROLLUP_CONF_FILE \
+  --faucet-private-key $ROLLUP_FAUCET_PRIV_KEY \
+  --sequencer-private-key $SEQUENCER_PRIV_KEY
+```
 
 
 
