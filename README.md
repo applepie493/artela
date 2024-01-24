@@ -38,6 +38,11 @@ mkdir -p ~/bin
 curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to ~/bin
 export PATH="$PATH:$HOME/bin"
 ```
+### 6)foundry
+```
+curl -L https://foundry.paradigm.xyz | bash
+```
+
 ## 2.ローカル環境の構築
 ```
 git clone https://github.com/astriaorg/dev-cluster.git
