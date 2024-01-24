@@ -72,8 +72,8 @@ export ROLLUP_GENESIS_ACCOUNTS=<GENESIS_ADDRESS>:100000000000000000000
 ```
 ./astria-cli sequencer account create
 ```
-新しいシーケンサーアカウントが作成できたら下記からfaucet。
-<https://faucet.sequencer.dusk-3.devnet.astria.org/>
+新しいシーケンサーアカウントが作成できたら下記からfaucet。<br>
+<https://faucet.sequencer.dusk-3.devnet.astria.org/><br>
 残高確認は
 ```
 ./astria-cli sequencer account balance $SEQUENCER_ACCOUNT_ADDRESS
