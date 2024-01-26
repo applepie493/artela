@@ -2,6 +2,9 @@
 Docs<br>
 <https://docs.astria.org/docs/local-rollup/introduction/>
 
+実行フォルダ<br>
+$home/asteria/dev-cluster<br>
+
 
 ## 1.環境のインストール
 ### 1)Docker(linux ver)
